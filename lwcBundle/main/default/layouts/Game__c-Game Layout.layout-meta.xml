@@ -30,6 +30,10 @@
                 <behavior>Edit</behavior>
                 <field>Player_O__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Current_Turn__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
