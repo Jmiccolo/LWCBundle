@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "lwcBundle",
+      "default": true
+    }
+  ],
+  "name": "LWCBundle",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "52.0"
+}
