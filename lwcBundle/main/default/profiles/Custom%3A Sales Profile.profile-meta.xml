@@ -34,15 +34,12 @@
     <layoutAssignments>
         <layout>Game__c-Game Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>Moves__c-Move Layout</layout>
-    </layoutAssignments>
     <tabVisibilities>
         <tab>Game__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Moves__c</tab>
+        <tab>Tic_Tac_toe</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

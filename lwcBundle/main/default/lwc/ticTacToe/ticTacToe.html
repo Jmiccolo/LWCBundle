@@ -1,0 +1,23 @@
+<template>
+    <div class="Game_Container">
+        <div class="Instruction_Container"></div>
+        <div class="Game_Info">
+            <template if:true={started}>
+                <h3>Player X: {Player_X.Name}</h3>
+                <h3>Player O: {Player_O.Name}</h3>
+                <h3>Current Turn: {current_turn}</h3>
+            </template>
+            <template if:false={started}>
+                <lightning-button variant="success" label="Start" title="Start Game" onclick={startGame}>
+                </lightning-button>
+            </template>
+        </div>
+        <div class="TTT_Container">
+            <template for:each={moves} for:item="move">
+                <div class="TTT_Box" key={move.box}>
+                    {move.letter}
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

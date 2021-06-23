@@ -1,0 +1,71 @@
+.Game_Container {
+    width: 100%;
+    display: flex;
+}
+.Instruction_Container {
+    width: 50%;
+}
+.TTT_Container {
+    height: 400px;
+    width: 50%;
+    max-width: 400px;
+    background: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TTT_Box {
+    height: 33%;
+    width: 33%;
+    margin: 0;
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 66px;
+    text-align: center;
+    line-height: 66px;
+    position:relative;
+}
+
+.TTT_Box:hover {
+    background: #aaaaaa;
+    cursor:pointer;
+}
+.TTT_Box:nth-of-type(1) {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.TTT_Box:nth-of-type(2) {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.TTT_Box:nth-of-type(3) {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.TTT_Box:nth-of-type(4) {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.TTT_Box:nth-of-type(5) {
+    border: 1px solid black;
+}
+.TTT_Box:nth-of-type(6) {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.TTT_Box:nth-of-type(7) {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.TTT_Box:nth-of-type(8) {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.TTT_Box:nth-of-type(9) {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}

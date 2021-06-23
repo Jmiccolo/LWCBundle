@@ -34,9 +34,6 @@
     <layoutAssignments>
         <layout>Game__c-Game Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>Moves__c-Move Layout</layout>
-    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -64,21 +61,12 @@
         <object>Move_Event__e</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Moves__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <tabVisibilities>
         <tab>Game__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Moves__c</tab>
+        <tab>Tic_Tac_toe</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
